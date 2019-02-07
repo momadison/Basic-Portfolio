@@ -45,12 +45,12 @@ footer {
 
 .portfoliowrapper-left {
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .portfoliowrapper-right {
     float: right;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-right: 350px;
 }
 
@@ -132,6 +132,10 @@ footer {
 
 #bottomcontent {
     margin: 0px 20px 20px 20px;
+}
+
+#bottomcontentp {
+    margin: 0px 0px 0px 0px;
 }
 
 #formbox {
