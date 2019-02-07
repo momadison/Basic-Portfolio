@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["name"].value;
+            var y = document.forms["myForm"]["email"].value;
+            var z = document.forms["myForm"]["message"].value;
+            if (x == "" || y == "" || z == "") {
+                alert("Please fill out form completely");
+                return false;
+            }
+        }
+    </script>
     <title>Contact</title>
 </head>
 <body>
@@ -37,7 +48,7 @@
                 <!--Holder for form-->
                 <div id="formbox">
                 <!--Add Form-->
-                    <form>
+                    <form name="myForm" action="mailto:mattomadison@gmail.com" onsubmit="return validateForm()" method="post">
                     Name<br><br>
                     <input class="form-control-md" type="text" name="name" size="150"><br><br>
                     Email<br><br>
