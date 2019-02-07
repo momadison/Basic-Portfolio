@@ -36,7 +36,6 @@ footer {
     height: 50px;
     width: 100%;
     text-align: center;
-    float: bottom;
     background: #6c6c6c;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -123,6 +122,7 @@ footer {
     background-color: #ffffff;
     width: 960px;
     margin: 25px auto;
+    margin-bottom: 100px;
 }
 
 #topcontent {
